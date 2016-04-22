@@ -3,8 +3,6 @@ Introduction
 
 Scripts can be local files or folders through the SFTP to the remote Linux host, you can SFTP to a host or more
 
-
-
 Getting started
 1. git clone https://github.com/fengbaoli/python-sftp.git
 2. Will require SFTP to remote files or folders to copy to the python-sftp directory
