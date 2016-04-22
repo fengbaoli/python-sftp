@@ -5,9 +5,12 @@ Scripts can be local files or folders through the SFTP to the remote Linux host,
 
 
 
+
 Getting started
 1. git clone https://github.com/fengbaoli/python-sftp.git
+
 2. Will require SFTP to remote files or folders to copy to the python-sftp directory
+
 3.source python_env.sh
 4.Edit file conf/hostname.txt file
 Format as:
