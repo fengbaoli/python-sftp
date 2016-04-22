@@ -14,15 +14,20 @@ Getting started
 （4）Edit file conf/hostname.txt file
 
 Format as:
+
 hostname:username:password
+
 If you need to upload to multiple hosts, please add the above format to conf/hostname.txt
 
 （5）Edit sftp.py file
+
 Parameter interpretation：
+
     remotepath = '/tmp'
     localpath = 'lib'
     
 remotepath:for SFTP to remote directory
+
 localpath:for SFTP local file or directory
 
 （6）python sftp.py
