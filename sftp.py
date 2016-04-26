@@ -1,5 +1,7 @@
 # -*- coding: utf-8 -*-
 __author__ = 'blfeng'
+import  sys,os
+sys.path.append(os.getcwd()+'/lib')
 import  paramiko,os,Sftp,string
 
 def main():
