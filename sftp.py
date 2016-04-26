@@ -18,7 +18,7 @@ def main():
             hostname=c[0]
             username=c[1]
             password=c[2]
-            s = Sftp(hostname=hostname,username=username,password= password,port=port,localpath=localpath,remotepath=remotepath)
+            s = Sftp.Sftp(hostname=hostname,username=username,password= password,port=port,localpath=localpath,remotepath=remotepath)
             s.sftp()
             
         else:
